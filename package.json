@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base-gfill",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Fill a strided array with a specified scalar constant.",
   "license": "Apache-2.0",
   "author": {
