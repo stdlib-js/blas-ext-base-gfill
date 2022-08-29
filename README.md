@@ -31,13 +31,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gfill/tags). For example,
+
+```javascript
 import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.0.10-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.0.10-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@esm/index.mjs';
 ```
 
 #### gfill( N, alpha, x, stride )
@@ -142,7 +147,7 @@ gfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.0.10-esm/index.mjs';
+import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@esm/index.mjs';
 
 var x = new Float64Array( 10 );
 var i;
