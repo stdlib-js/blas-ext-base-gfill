@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gfill"
-click B href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/main"
-click C href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/production"
-click D href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/esm"
-click E href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/deno"
-click F href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gfill"
+%% click B href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/main"
+%% click C href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/production"
+%% click D href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/esm"
+%% click E href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/deno"
+%% click F href "https://github.com/stdlib-js/blas-ext-base-gfill/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gfill
