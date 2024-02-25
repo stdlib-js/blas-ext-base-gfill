@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gfill/tags). For example,
+
+```javascript
 import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.2.1-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@deno/mod.js';
 ```
 
 #### gfill( N, alpha, x, stride )
@@ -148,7 +153,7 @@ gfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.2.1-deno/mod.js';
+import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@deno/mod.js';
 
 var x = new Float64Array( 10 );
 var i;
