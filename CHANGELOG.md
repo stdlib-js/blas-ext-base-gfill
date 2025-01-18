@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-01-18)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b5162a4`](https://github.com/stdlib-js/stdlib/commit/b5162a4e01171af062b711f4be105a4e4a24fb8b) - **refactor:** update `blas/ext/base/gfill` to follow current project conventions [(#4552)](https://github.com/stdlib-js/stdlib/pull/4552) _(by Muhammad Haris)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Muhammad Haris
 
 </section>
 
