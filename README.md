@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@esm/index.mjs';
+import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.2.2-esm/index.mjs';
 ```
 
 #### gfill( N, alpha, x, strideX )
@@ -147,7 +147,7 @@ gfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@esm/index.mjs';
+import gfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@v0.2.2-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
