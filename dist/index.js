@@ -1,4 +1,4 @@
-"use strict";var c=function(t,e){return function(){return e||t((e={exports:{}}).exports,e),e.exports}};var y=c(function(C,q){
+"use strict";var c=function(t,e){return function(){try{return e||t((e={exports:{}}).exports,e),e.exports}catch(r){throw (e=0, r)}};};var y=c(function(C,q){
 function j(t,e,r,o,f){var i,n,s,u;for(i=r.data,n=r.accessors[1],s=f,u=0;u<t;u++)n(i,s,e),s+=o;return r}q.exports=j
 });var a=c(function(D,d){
 var k=require('@stdlib/array-base-arraylike2object/dist'),M=y(),v=8;function O(t,e,r,o,f){var i,n,s,u;if(t<=0)return r;if(s=k(r),s.accessorProtocol)return M(t,e,s,o,f),s.data;if(i=f,o===1){if(n=t%v,n>0)for(u=0;u<n;u++)r[i]=e,i+=o;if(t<v)return r;for(u=n;u<t;u+=v)r[i]=e,r[i+1]=e,r[i+2]=e,r[i+3]=e,r[i+4]=e,r[i+5]=e,r[i+6]=e,r[i+7]=e,i+=v;return r}for(u=0;u<t;u++)r[i]=e,i+=o;return r}d.exports=O
